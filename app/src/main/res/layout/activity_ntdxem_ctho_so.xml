@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/idS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/logo"/>
+            <TextView
+                android:id="@+id/idSH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Jobs"
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtCV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:text="Chi Tiết Hồ Sơ"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbr2">
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtHoTen"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Họ tên:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtTEN"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tbr1">
+
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtTrinhdo"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Trình độ:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtTD"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:id="@+id/tbr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtSonamKN"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Số năm kinh nghiệm:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtKN"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:id="@+id/tbr4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtVieclm"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Việc làm mong muốn:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txt"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:id="@+id/tbr5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtNoilm"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Nơi làm việc mong muốn:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtnoilm"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:id="@+id/tbr7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtiachi"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Địa chỉ:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtdiachi"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:id="@+id/tbr8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Email:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtemail"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="7dp"
+            android:id="@+id/tbr9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtSdt"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Số điện thoại:"
+                android:textSize="22dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"/>
+            <TextView
+                android:textColor="#000000"
+                android:id="@+id/txtsdt"
+                android:textSize="22dp"
+                android:text=""
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="6dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/btntron"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:text="Xóa" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btntron"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:text="Nhận" />
+    </TableRow>
+
+
+</LinearLayout>

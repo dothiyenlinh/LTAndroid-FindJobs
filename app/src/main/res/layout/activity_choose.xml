@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    tools:context=".Choose">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/idS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/logo"/>
+
+
+            <TextView
+                android:id="@+id/idSH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Jobs"
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView
+                android:id="@+id/idkkk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Bạn muốn đăng nhập vào:"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginTop="60dp">
+
+            <Button
+                android:id="@+id/btnchondntd"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ntdchoose"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnchondnxv"
+                android:layout_width="150dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/nxvchoose"
+                android:text="" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/idh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="TUYỂN DỤNG"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:id="@+id/idhl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="XIN VIỆC"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="95dp"/>
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

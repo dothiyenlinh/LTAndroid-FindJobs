@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/idS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/logo"/>
+
+
+            <TextView
+                android:id="@+id/idSH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Jobs"
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"/>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <EditText
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/edtsearch"
+        android:id="@+id/editText"
+        android:layout_width="343dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="  Search"
+        android:paddingLeft="20dp"
+        android:drawableLeft="@drawable/iconsearch"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:text="Thêm"
+        android:textColor="#1B1919"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý tài Cost"
+        android:textColor="#7f4e9e"
+        android:textSize="26dp"
+        android:gravity="center" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+</LinearLayout>

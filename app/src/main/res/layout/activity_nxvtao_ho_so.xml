@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen">
+
+    <TextView
+        android:id="@+id/txtTaoHoSo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TẠO HỒ SƠ"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:textColor="#7F4E9E"/>
+    <TableLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/txthoten"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Họ Tên:"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/edtHoten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/edttron"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#BEBEBE "
+                android:textSize="24sp" />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/txtrinhdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Trình độ:"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/edttrinhdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/edttron"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textColor="#BEBEBE "
+                android:textSize="24sp" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số năm kinh nghiệm:"
+            android:textSize="26dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+
+            <EditText
+                android:id="@+id/edtsnkn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/edttron"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/txtSNKN"
+                android:layout_width="70dp"
+                android:layout_marginRight="50dp"
+                android:text="Năm"
+                android:textColor="#000000"
+                android:textSize="26dp"
+                android:background="@drawable/txttron"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/txtvclm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Việc làm mong muốn:"
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/edtnoilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edttron"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/txtnoilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Nơi làm việc mong muốn:"
+        android:textColor="#000000"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/edtnoivclm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edttron"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textSize="24dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txtmucluong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mức lương mong muốn:"
+            android:textSize="26dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+        <TableRow
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+
+
+            <EditText
+                android:id="@+id/edtmucluong"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/edttron"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/txttrieuthang"
+                android:layout_width="170dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/txttron"
+                android:text="Triệu/Tháng"
+                android:textColor="#000000"
+                android:textSize="26dp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnLuu"
+        android:layout_width="160dp"
+        android:layout_height="59dp"
+        android:text="Lưu hồ sơ"
+        android:background="@drawable/btntron"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

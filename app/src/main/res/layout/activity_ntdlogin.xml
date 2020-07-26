@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TableRow>
+
+            <TextView
+                android:id="@+id/idS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/ntdchoose"/>
+
+
+            <TextView
+                android:id="@+id/idSH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="Jobs"
+                android:textColor="#7F4E9E"
+                android:textSize="75sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"/>
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/idSKK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Nhà Tuyển Dụng"
+        android:textColor="#000000"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:background="@drawable/edttron"
+        android:id="@+id/usernametd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableRight="@drawable/iconuser"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:inputType="textPersonName"
+        android:hint=" Tên đăng nhập hoặc Email"
+        android:textColor="#BEBEBE "
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/passwordtd"
+        android:background="@drawable/edttron"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="15dp"
+        android:drawableRight="@drawable/iconkhoa"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Mật khẩu"
+        android:textColor="#BEBEBE "
+        android:textSize="24sp" />
+
+    <Button
+
+        android:id="@+id/logintd"
+        android:layout_width="172dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/btntron"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtquemknxv"
+        android:layout_width="401dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text=" Quên mật khẩu?"
+        android:textColor="#000000 "
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtdangkynxv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Tạo tài khoản?"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_marginLeft="5dp"/>
+
+
+</LinearLayout>

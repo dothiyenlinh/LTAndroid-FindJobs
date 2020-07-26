@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen">
+
+    <TextView
+
+        android:id="@+id/txtKPMK"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:textColor="#7F4E9E"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/txtthongbao"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Vui lòng sử dụng email của bạn để lấy lại mật khẩu mới. "
+        android:textColor="	#696969"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Email:"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNhapemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edttron"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Nhập email"
+        android:textColor="#BEBEBE "
+        android:textSize="24sp"
+        android:layout_marginRight="10dp"/>
+
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#BEBEBE "
+        android:textSize="24sp"
+        android:id="@+id/edtbaoloi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+
+            >
+
+
+            <Button
+                android:id="@+id/btnQuaylai"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:text="Quay lại"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/btntron"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnGuiyeucau"
+                android:layout_width="160dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/btntron"
+                android:text="Gửi yêu cầu"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
