@@ -17,7 +17,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".NXV.NXVLogin"/>
         <activity android:name=".NTD.NTDLogin" />
+        <activity android:name=".NXV.NXVIndex"/>
+        <activity android:name=".NXV.NXVQuenMK"/>
+        <activity android:name=".NXV.NXVDangKy"/>
+        <activity android:name=".NTD.NTDQuenMK"/>
+        <activity android:name=".NTD.NTDIndex"/>
+        <activity android:name=".NTD.NTDDangKy"/>
     </application>
 
 </manifest>

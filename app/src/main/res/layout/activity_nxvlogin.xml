@@ -54,32 +54,34 @@
         android:layout_marginLeft="30dp"/>
 
     <EditText
-        android:background="@drawable/edttron"
         android:id="@+id/usernamenxv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
         android:layout_marginBottom="10dp"
+        android:background="@drawable/edttron"
         android:drawableRight="@drawable/iconuser"
         android:ems="10"
-        android:layout_marginTop="30dp"
-        android:inputType="textPersonName"
         android:hint=" Tên đăng nhập hoặc Email"
+        android:inputType="textPersonName"
+        android:text="Linh"
         android:textColor="#BEBEBE "
         android:textSize="24sp" />
 
     <EditText
         android:id="@+id/passnxv"
-        android:background="@drawable/edttron"
         android:layout_width="399dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="15dp"
+        android:background="@drawable/edttron"
         android:drawableRight="@drawable/iconkhoa"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint=" Mật khẩu"
+        android:inputType="textPersonName"
+        android:text="123123"
         android:textColor="#BEBEBE "
         android:textSize="24sp" />
 

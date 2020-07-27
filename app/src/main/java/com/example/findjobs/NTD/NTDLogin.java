@@ -1,5 +1,7 @@
 package com.example.findjobs.NTD;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,6 +11,9 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.findjobs.NXV.NXVDangKy;
+import com.example.findjobs.NXV.NXVLogin;
+import com.example.findjobs.NXV.NXVQuenMK;
 import com.example.findjobs.R;
 
 public class NTDLogin extends AppCompatActivity {
@@ -20,24 +25,72 @@ public class NTDLogin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ntdlogin);
 
-        txtquenmk = (TextView) findViewById(R.id.txtquemknxv);
-        txttaotk= (TextView) findViewById(R.id.txtdangkynxv);
-        btndangnhap=(Button) findViewById(R.id.btndangnhapnxv);
+        txtquenmk = (TextView) findViewById(R.id.txtquemkntd);
+        txttaotk= (TextView) findViewById(R.id.txtdangkyntd);
+        btndangnhap=(Button) findViewById(R.id.logintd);
+        edtusername=findViewById(R.id.usernametd);
+        edtpass=findViewById(R.id.passwordtd);
+    }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
         txtquenmk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getBaseContext(), NTDQuenMK.class);
-                startActivity(i);
+                openForgotPasswordActivity();
             }
         });
 
         txttaotk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i1 = new Intent(getBaseContext(), NTDDangKy.class);
-                startActivity(i1);
+                openRegisterActivity();
             }
         });
+        btndangnhap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String us,ps;
+                us=edtusername.getText().toString();
+                ps=edtpass.getText().toString();
+                if(us.equals("Luot")&&ps.equals("123123")){
+                    openIndexNTD();
+                }
+                else {
+                    Alert("Sai thông tin tài khoản");
+                }
+            }
+        });
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+    private void openIndexNTD(){
+        Intent intent=new Intent(NTDLogin.this,NTDIndex.class);
+        startActivity(intent);
+    }
+    public void Alert(String message)
+    {
+        AlertDialog alertDialog = new AlertDialog.Builder(NTDLogin.this).create();
+        alertDialog.setTitle("Thông báo");
+        alertDialog.setMessage(message);
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+    }
+    private void openRegisterActivity(){
+        Intent intent=new Intent(NTDLogin.this, NTDDangKy.class);
+        startActivity(intent);
+    }
+    private void openForgotPasswordActivity(){
+        Intent intent=new Intent(NTDLogin.this, NTDQuenMK.class);
+        startActivity(intent);
     }
 }

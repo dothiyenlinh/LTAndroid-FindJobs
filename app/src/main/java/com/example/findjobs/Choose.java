@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.findjobs.NTD.NTDLogin;
+import com.example.findjobs.NXV.NXVLogin;
 
 public class Choose extends AppCompatActivity {
     Button btndangnhaptd, btndangnhapxv;
@@ -20,14 +21,27 @@ public class Choose extends AppCompatActivity {
 
 
         btndangnhaptd = (Button) findViewById(R.id.btnchondntd);
-        btndangnhapxv = (Button) findViewById(R.id.btndangnhapnxv);
-
+        btndangnhapxv = (Button) findViewById(R.id.btnchondnxv1);
+        System.out.println(1);
         btndangnhapxv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Choose.this,NTDLogin.class);
-                startActivity(i);
+                openLoginNguoiXinViec();
             }
         });
+        btndangnhaptd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openLoginNhaTuyenDung();
+            }
+        });
+    }
+    private void openLoginNhaTuyenDung(){
+        Intent intent =new Intent(Choose.this, NTDLogin.class);
+        startActivity(intent);
+    }
+    private void openLoginNguoiXinViec(){
+        Intent intent =new Intent(Choose.this, NXVLogin.class);
+        startActivity(intent);
     }
 }
