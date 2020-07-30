@@ -32,7 +32,7 @@
             android:textSize="24dp" />
 
         <EditText
-            android:id="@+id/edtHoten"
+            android:id="@+id/edttencttd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -55,7 +55,7 @@
             android:textSize="24dp" />
 
         <EditText
-            android:id="@+id/edttrinhdo"
+            android:id="@+id/edtvitritd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/edttron"
@@ -79,7 +79,7 @@
 
 
     <EditText
-        android:id="@+id/edtsnkn"
+        android:id="@+id/edtdiachitd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edttron"
@@ -102,7 +102,7 @@
         android:textSize="26dp" />
 
     <EditText
-        android:id="@+id/edtnoilm"
+        android:id="@+id/edtemailtd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
@@ -127,7 +127,7 @@
 
 
     <EditText
-        android:id="@+id/edtmucluong"
+        android:id="@+id/edtsdttd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/edttron"
@@ -148,7 +148,7 @@
         android:textSize="26dp" />
 
     <EditText
-        android:id="@+id/edtnoivclm"
+        android:id="@+id/edtmotacttd"
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:layout_marginLeft="10dp"
@@ -163,7 +163,7 @@
     <Button
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:id="@+id/btnLuu"
+        android:id="@+id/btncapnhattttd"
         android:layout_width="160dp"
         android:layout_height="59dp"
         android:text="Cập nhật"

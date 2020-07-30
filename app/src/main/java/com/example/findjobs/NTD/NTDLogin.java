@@ -11,9 +11,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.findjobs.NXV.NXVDangKy;
-import com.example.findjobs.NXV.NXVLogin;
-import com.example.findjobs.NXV.NXVQuenMK;
 import com.example.findjobs.R;
 
 public class NTDLogin extends AppCompatActivity {

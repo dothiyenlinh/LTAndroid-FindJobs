@@ -53,7 +53,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editNameSU"
+        android:id="@+id/edUsernameXV"
         android:layout_width="345dp"
         android:layout_height="50dp"
         android:layout_marginLeft="30dp"
@@ -61,13 +61,13 @@
         android:layout_marginBottom="10dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint=" Tên"
+        android:hint="Tên đăng nhập"
         android:textColor="#BEBEBE "
         android:background="@drawable/edttron"
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editEmail"
+        android:id="@+id/editEmailXV"
         android:layout_width="345dp"
         android:layout_height="50dp"
         android:layout_marginLeft="30dp"
@@ -82,7 +82,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editpasswordSU"
+        android:id="@+id/editpasswordXV"
         android:layout_width="345dp"
         android:layout_height="50dp"
         android:layout_marginLeft="30dp"
@@ -97,7 +97,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/editPhone"
+        android:id="@+id/editPhoneXV"
         android:layout_width="346dp"
         android:layout_height="50dp"
         android:layout_marginLeft="30dp"
@@ -114,7 +114,7 @@
     <Button
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:id="@+id/button"
+        android:id="@+id/btnDangKyXV"
         android:layout_width="132dp"
         android:layout_height="59dp"
         android:text="ĐĂNG KÝ"

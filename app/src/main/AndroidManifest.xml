@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TestActivity"></activity>
         <activity android:name=".Choose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,10 +17,28 @@
             </intent-filter>
         </activity>
         <activity android:name=".NXV.NXVLogin"/>
-        <activity android:name=".NTD.NTDLogin" />
         <activity android:name=".NXV.NXVIndex"/>
         <activity android:name=".NXV.NXVQuenMK"/>
-        <activity android:name=".NXV.NXVDangKy"/>
+        <activity android:name=".NXV.NXVDangKy">
+
+        </activity>
+        <activity android:name=".NXV.NXVTrangCaNhan"/>
+        <activity android:name=".NXV.NXVThongBao"/>
+        <activity android:name=".NXV.NXVTaoHoSo"/>
+        <activity android:name=".NXV.NXVDatLaiMK"/>
+        <activity android:name=".NXV.NXVChinhSuaTCN"/>
+
+        <activity android:name=".NTD.NTDLogin" />
+        <activity android:name=".NTD.NTDChinhSuaTCN"/>
+        <activity android:name=".NTD.NTDDangBai"/>
+        <activity android:name=".NTD.NTDXemHSXinViec"/>
+        <activity android:name=".NTD.NTDDanhSachBaiDang"/>
+        <activity android:name=".NTD.NTDXemCTHoSo"/>
+        <activity android:name=".NTD.NTDXemChiPhi"/>
+        <activity android:name=".NTD.NTDThongBao"/>
+        <activity android:name=".NTD.NTDSuaBaiDang"/>
+        <activity android:name=".NTD.NTDTrangCaNhan"/>
+        <activity android:name=".NTD.NTDDatLaiMK"/>
         <activity android:name=".NTD.NTDQuenMK"/>
         <activity android:name=".NTD.NTDIndex"/>
         <activity android:name=".NTD.NTDDangKy"/>
